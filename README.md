@@ -51,7 +51,7 @@ Tapatch, Neon, Arctic, Ember, Void, and a full custom theme editor with live pre
 - Seconds are counted exactly, including after the window was minimized
 - Settings save right away, the Small window size fits, and narrow windows get a compact layout
 
-Release notes for every version are on the [Releases](https://github.com/tapatchUSA/ClickMeter/releases) page.
+Release notes for every version are on the [Releases](https://github.com/tapatchUSA/ClickMeter/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
