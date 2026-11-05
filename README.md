@@ -2,7 +2,7 @@
 <h1 align="center">ClickMeter</h1>
 <p align="center"><b>Beats browser click tests. Real CPS, zero lag.</b></p>
 <p align="center">CPS Tracker · Windows 10/11 · x64 · ~4 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/ClickMeter/releases/latest"><b>⬇ Download ClickMeter 1.0.6</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/clickmeter/">tapatch.com/tools/clickmeter</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/ClickMeter/releases/latest"><b>⬇ Download ClickMeter 1.0.7</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/clickmeter/">tapatch.com/tools/clickmeter</a></p>
 
 <p align="center">
 <img src="screenshots/clickmeter-v1.0.5.png" alt="ClickMeter — Live clicks per second and session chart"><br>
@@ -42,16 +42,20 @@ The hook runs on its own dedicated thread and never steals keyboard focus, so it
 **🎨 Theme presets + custom**  
 Tapatch, Neon, Arctic, Ember, Void, and a full custom theme editor with live preview.
 
-## What's new in 1.0.6
+## What's new in 1.0.7
 
-- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
-- Nothing else changed
+- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
+- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
+- No longer crashes when opened within 35 seconds of Windows starting
+- Much lighter on the PC: it redraws 4 times a second while no one is clicking instead of 125 (a click wakes it right away)
+- Custom colors no longer come back one shade darker, and the donation pop-up is centered
+- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/ClickMeter/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **ClickMeter-Setup-1.0.6.exe** from the [latest release](https://github.com/tapatchUSA/ClickMeter/releases/latest) or from [tapatch.com](https://tapatch.com/tools/clickmeter/).
+1. Download **ClickMeter-Setup-1.0.7.exe** from the [latest release](https://github.com/tapatchUSA/ClickMeter/releases/latest) or from [tapatch.com](https://tapatch.com/tools/clickmeter/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -68,21 +72,22 @@ scoop install tapatch/clickmeter
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
-| [1.0.6](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.6) | 2026-10-17 | [ClickMeter-Setup-1.0.6.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.6/ClickMeter-Setup-1.0.6.exe) | [1 / 71](https://www.virustotal.com/gui/file/bb502d83f7a0b8d9f56d26af4f245cf88ba76432ea442ad47d043d52ded7e2b6/detection) | `bb502d83f7a0b8d9…` |
-| [1.0.5](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.5) | 2026-10-02 | [ClickMeter-Setup-1.0.5.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.5/ClickMeter-Setup-1.0.5.exe) | [4 / 71](https://www.virustotal.com/gui/file/ab252a3db9a766dbf55840482513abc7fc9275fed87b1d0e50d506e08f24e547/detection) | `ab252a3db9a766db…` |
-| [1.0.4](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.4) | 2026-10-01 | [ClickMeter-Setup-1.0.4.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.4/ClickMeter-Setup-1.0.4.exe) | [3 / 71](https://www.virustotal.com/gui/file/f4342e4743b0e48f288ed9a63eea240ed80c21e6f53a0599fe5ff55038e9e729/detection) | `f4342e4743b0e48f…` |
-| [1.0.3](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.3) | 2026-09-30 | [ClickMeter-Setup-1.0.3.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.3/ClickMeter-Setup-1.0.3.exe) | [3 / 71](https://www.virustotal.com/gui/file/a416879808ed9168f0988689bef2bad6627156f90c6cd64c1bb8b06b006cb6f5/detection) | `a416879808ed9168…` |
-| [1.0.2](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.2) | 2026-05-29 | [ClickMeter-Setup-1.0.2.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.2/ClickMeter-Setup-1.0.2.exe) | [2 / 68](https://www.virustotal.com/gui/file/5791b1b947dded71e1776ee43a889db1d4e2dd005f995e04aff3d0d3f855ec73/detection) | `5791b1b947dded71…` |
-| [1.0.1](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.1) | 2026-05-26 | [ClickMeter-Setup-1.0.1.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.1/ClickMeter-Setup-1.0.1.exe) | [2 / 71](https://www.virustotal.com/gui/file/9c1dbe8fc69700a9b188a326d3edaa006f453e236cc62deaaaa9dd6f94cb5fd0/detection) | `9c1dbe8fc69700a9…` |
-| [1.0.0](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.0) | 2026-04-11 | [ClickMeter-Setup-1.0.0.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.0/ClickMeter-Setup-1.0.0.exe) | [2 / 72](https://www.virustotal.com/gui/file/5335e9348a6b9dcff20a6b1148f0bc5eb4e3bdaf90abe73f787897ee9bd3fe1b/detection) | `5335e9348a6b9dcf…` |
+| [1.0.7](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.7) | 2026-11-04 | [ClickMeter-Setup-1.0.7.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.7/ClickMeter-Setup-1.0.7.exe) | [1 / 71](https://www.virustotal.com/gui/file/5274d3d38c3db26ff885fa8ac262f0a45294bbfdef3bd8d35d66fade13e46809/detection) | `5274d3d38c3db26f…` |
+| [1.0.6](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.6) | 2026-10-17 | [ClickMeter-Setup-1.0.6.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.6/ClickMeter-Setup-1.0.6.exe) | [0 / 71](https://www.virustotal.com/gui/file/bb502d83f7a0b8d9f56d26af4f245cf88ba76432ea442ad47d043d52ded7e2b6/detection) | `bb502d83f7a0b8d9…` |
+| [1.0.5](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.5) | 2026-10-02 | [ClickMeter-Setup-1.0.5.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.5/ClickMeter-Setup-1.0.5.exe) | [1 / 69](https://www.virustotal.com/gui/file/ab252a3db9a766dbf55840482513abc7fc9275fed87b1d0e50d506e08f24e547/detection) | `ab252a3db9a766db…` |
+| [1.0.4](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.4) | 2026-10-01 | [ClickMeter-Setup-1.0.4.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.4/ClickMeter-Setup-1.0.4.exe) | [0 / 71](https://www.virustotal.com/gui/file/f4342e4743b0e48f288ed9a63eea240ed80c21e6f53a0599fe5ff55038e9e729/detection) | `f4342e4743b0e48f…` |
+| [1.0.3](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.3) | 2026-09-30 | [ClickMeter-Setup-1.0.3.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.3/ClickMeter-Setup-1.0.3.exe) | [1 / 71](https://www.virustotal.com/gui/file/a416879808ed9168f0988689bef2bad6627156f90c6cd64c1bb8b06b006cb6f5/detection) | `a416879808ed9168…` |
+| [1.0.2](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.2) | 2026-05-29 | [ClickMeter-Setup-1.0.2.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.2/ClickMeter-Setup-1.0.2.exe) | [0 / 70](https://www.virustotal.com/gui/file/5791b1b947dded71e1776ee43a889db1d4e2dd005f995e04aff3d0d3f855ec73/detection) | `5791b1b947dded71…` |
+| [1.0.1](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.1) | 2026-05-26 | [ClickMeter-Setup-1.0.1.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.1/ClickMeter-Setup-1.0.1.exe) | [1 / 70](https://www.virustotal.com/gui/file/9c1dbe8fc69700a9b188a326d3edaa006f453e236cc62deaaaa9dd6f94cb5fd0/detection) | `9c1dbe8fc69700a9…` |
+| [1.0.0](https://github.com/tapatchUSA/ClickMeter/releases/tag/v1.0.0) | 2026-04-11 | [ClickMeter-Setup-1.0.0.exe](https://github.com/tapatchUSA/ClickMeter/releases/download/v1.0.0/ClickMeter-Setup-1.0.0.exe) | [1 / 71](https://www.virustotal.com/gui/file/5335e9348a6b9dcff20a6b1148f0bc5eb4e3bdaf90abe73f787897ee9bd3fe1b/detection) | `5335e9348a6b9dcf…` |
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. ClickMeter 1.0.6: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/bb502d83f7a0b8d9f56d26af4f245cf88ba76432ea442ad47d043d52ded7e2b6/detection)
+Every installer is scanned on VirusTotal before release. ClickMeter 1.0.7: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/5274d3d38c3db26ff885fa8ac262f0a45294bbfdef3bd8d35d66fade13e46809/detection)
 
 **SHA-256**
 ```
-bb502d83f7a0b8d9f56d26af4f245cf88ba76432ea442ad47d043d52ded7e2b6
+5274d3d38c3db26ff885fa8ac262f0a45294bbfdef3bd8d35d66fade13e46809
 ```
 
 ## Built with
